@@ -84,7 +84,7 @@ ul {
     align-items: flex-start;
     row-gap: 50px;
     justify-content: center;
-    padding: 100px 100px;
+    padding: 100px;
 }
 
 li {
@@ -165,12 +165,11 @@ button:hover {
         box-shadow: none;
     }
 
-    /* .container_quiz,
-    .back {
-        min-height: 100vh;
-    } */
-
     .container_quiz {
         background-color: transparent;
+    }
+
+    ul {
+        padding: 100px 50px;
     }
 }
