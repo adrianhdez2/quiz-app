@@ -48,6 +48,7 @@ body {
     align-items: center;
     font-style: italic;
     transform: translateY(-100%);
+    text-align: center;
 }
 
 .back.caer,
@@ -164,8 +165,12 @@ button:hover {
         box-shadow: none;
     }
 
-    .container_quiz,
+    /* .container_quiz,
     .back {
         min-height: 100vh;
+    } */
+
+    .container_quiz {
+        background-color: transparent;
     }
 }
